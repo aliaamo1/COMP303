@@ -39,7 +39,7 @@ public class Card implements Comparable<Card> {
 	
 	public enum Rank {
 		ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
-		TEN, JACK, QUEEN, KING, NO_RANK
+		TEN, JACK, QUEEN, KING
 	}
 	
 	public enum Joker {
@@ -47,7 +47,7 @@ public class Card implements Comparable<Card> {
 	}
 	
 	public enum Suit {
-	CLUBS, DIAMONDS, SPADES, HEARTS, NO_SUIT
+	CLUBS, DIAMONDS, SPADES, HEARTS
 	}
 	
 	
