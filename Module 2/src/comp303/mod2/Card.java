@@ -95,13 +95,11 @@ public class Card implements Comparable<Card> {
 	 * post condition asserts the precondition
 	 */
 	public Rank getRank(){
-		if (aJoker !=null) return Rank.NO_RANK;
-		else 
+		
 		return aRank;
 	}
 	public Suit getSuit() {
-		if(aJoker !=null) return Suit.NO_SUIT;
-		else 
+		
 		return aSuit;
 	}
 	
